@@ -1,0 +1,10 @@
+CREATE TABLE `tb_empleado` 
+( `id_person` int(11) NOT NULL, `nombre` varchar(25) NOT NULL, `apellidos` varchar(25)
+ NOT NULL, `edad` int(11) NOT NULL);
+
+
+ INSERT INTO `tb_empleado` (`id_person`, `nombre`, `apellidos`, `edad`) VALUES
+(1, 'carlos', 'ramos ramires', 47),
+(2, 'Estefania', 'moran hernandes', 15),
+(3, 'Lucia', 'Morales', 19),
+(4, 'jose', 'Del Moran', 62);
